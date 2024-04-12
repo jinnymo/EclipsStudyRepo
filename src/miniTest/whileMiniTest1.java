@@ -17,7 +17,7 @@ public class whileMiniTest1 {
 			if(a == 10) {
 				//실행에 제어권 반납
 				flag = false;
-				break;
+				break;// 루프문 탈출 
 			}
 			
 			result += a;
