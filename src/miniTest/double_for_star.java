@@ -37,4 +37,4 @@ public class double_for_star {
 
 	}
 
-}
+}//https://www.notion.so/for-7232f374e816480fb757ef0710da361b
