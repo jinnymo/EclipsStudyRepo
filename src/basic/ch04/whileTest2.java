@@ -13,11 +13,12 @@ public class whileTest2 {
 		int end = sc.nextInt();
 
 		while (flag) {
-
-			System.out.println("start :" + start);
 			if (start == end) {
 				flag = false;
+				return;//실행중 종료할떄;
 			}
+			System.out.println("start :" + start);
+			
 			start++;
 		}
 
