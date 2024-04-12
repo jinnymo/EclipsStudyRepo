@@ -8,21 +8,19 @@ public class whileTest2 {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("어떤 수 까지 출력 할까요? : ");
-		boolean flag = true; //깃발
+		boolean flag = true; // 깃발
 		int start = 0;
 		int end = sc.nextInt();
-		
-		while(flag) {
-			
+
+		while (flag) {
+
 			System.out.println("start :" + start);
-			if(start == end) {
+			if (start == end) {
 				flag = false;
 			}
 			start++;
 		}
-		
-		
-		
-	}//end of main
 
-}//end of class
+	}// end of main
+
+}// end of class
