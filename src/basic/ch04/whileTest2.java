@@ -22,6 +22,6 @@ public class whileTest2 {
 			start++;
 		}
 
-	}// end of main
+	}// end of mainㅇ
 
 }// end of class
