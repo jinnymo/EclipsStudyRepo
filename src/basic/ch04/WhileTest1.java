@@ -3,8 +3,25 @@ package basic.ch04;
 public class WhileTest1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println(1);
+		System.out.println(2);
+		System.out.println(3);
+		System.out.println(4);
+		System.out.println(5);
+		System.out.println(6);
+		System.out.println(7);
+		System.out.println(8);
+		System.out.println(9);
+		
+		// x < 11 
+		int i = 1;
+		while (i < 10) {
+			i++;
+			System.out.println(i);
+			// while 구문은 조건식에 처리가 없다면 무한이 반복한다.
+		}
+		
 
-	}
+	}// end of main
 
-}
+}// end of class
