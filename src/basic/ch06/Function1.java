@@ -5,12 +5,14 @@ import java.util.Scanner;
 //자바의 모든 코드는 class{}블록안에 코드를 작성하기로 약속했다.
 public class Function1 {
 
+	
 	public static void main(String[] args) {
 
 		int num1;
 		int num2;
 		int sum;
 		add(10, 10);
+		
 
 		Scanner sc = new Scanner(System.in);
 
