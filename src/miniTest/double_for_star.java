@@ -16,7 +16,7 @@ public class double_for_star {
 		System.out.println("----------------------------");
 
 		a = 1;
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 5; i++) {
 			for (int ii = 0; ii < a; ii++) {
 				System.out.print("*");
 			}
