@@ -67,6 +67,7 @@ public class Practice {
 	}
 
 	static int findMax(int[] getNums) {
+		
 		int max = getNums[0];
 		for (int i = 0; i < getNums.length; i++) {
 			if (getNums[i] > max) {
