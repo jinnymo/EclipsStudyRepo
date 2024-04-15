@@ -2,7 +2,7 @@ package basic.ch05;
 
 //클래스란 객체를 만들기 전 설계 도면 입니다.
 //
-public class Student {
+public class Student  {
 
 	String name; // 학생이름(문자열)
 	int grade; // 학년(정수)
