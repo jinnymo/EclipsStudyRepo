@@ -10,12 +10,17 @@ public class Practice {
 		// TODO Auto-generated method stub
 
 		System.out.println("안녕하세요 " + sysprint() + "님!");
+		//----------------------------------------------------
 		System.out.println("입력한 수 의 제곱은 " + square() + "입니다.");
+		//---------------------------------------------------------
 		System.out.println("당신은 성인이 : " + ageCount());
+		//----------------------------------------------------
 		System.out.println("정수 입력  : ");
+		//------------------------------------------------
 
 		int a = sc.nextInt();
 		System.out.println("입력한 정수는 : " + signOfNumber(a));
+		//-------------------------------------------------------------
 
 		System.out.println("숫자 5개 입력하셈");
 		int[] num = new int[5];
@@ -24,6 +29,7 @@ public class Practice {
 		}
 		System.out.println("입력한것중 젤큰거는 : " + findMax(num));
 
+		//---------------------------------------------------------
 	}
 
 	static String sysprint() {
@@ -67,7 +73,7 @@ public class Practice {
 	}
 
 	static int findMax(int[] getNums) {
-		
+
 		int max = getNums[0];
 		for (int i = 0; i < getNums.length; i++) {
 			if (getNums[i] > max) {

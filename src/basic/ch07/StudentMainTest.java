@@ -13,7 +13,23 @@ public class StudentMainTest {
 		student1.study();
 		student1.breakTime();
 		student1.showInfo();
+		
+		System.out.println("------------------");
+		
+		Student student2 = new Student();
+		student2.studentID = 2001;
+		student2.studentName = "야스오";
+		student2.address = "붉은 언덕";
+		student2.showInfo();
+		
+		student2.takeTest();
+		student2.cleanUp();
 
+	}
+	//자바에서 함수란 객체와 상관없이 독립적으로
+	//기능을 수행하는 일련의 ㅋ드 뭈음
+	static double addDouble(double d1, double d2) {
+		return d1+d2;
 	}
 
 }

@@ -11,11 +11,11 @@ public class Student {
 
 	// 메서드 설계하기
 	public void study() {
-		System.out.println("학생이 공부를 합니다.");
+		System.out.println(studentName + "학생이 공부를 합니다.");
 		
 	}
 	public void breakTime() {
-		System.out.println("학생이 휴식을 합니다.");
+		System.out.println(studentName + "학생이 휴식을 합니다.");
 	}
 	public void showInfo() {
 		System.out.println("-------------상태창---------------");
@@ -28,4 +28,11 @@ public class Student {
 	//객체의 기능을 구현하기 위해 클래스 내부에 구현되는 함수
 	//멤버 함수(member function)
 	//메서드 - 멤버 변수를 활용해서 기능을 구현한다.
+	
+	public void takeTest() {
+		System.out.println(studentID + "학생이 시험을 친다.");
+	}
+	public void cleanUp() {
+		System.out.println(studentID + "학생이 청소를 한다.");
+	}
 }
