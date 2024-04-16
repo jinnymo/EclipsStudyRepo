@@ -27,6 +27,7 @@ public class Battlefiled {
 //		} else if (chooseCH == 3) {
 //			System.out.println("1.전사 2. 아처");
 //
+	
 //		}
 //		EMN = sc.nextInt();
 		System.out.println("전사 아처 공격력 수정을 통한 밸런스 조절하기 ");
