@@ -5,6 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Battlefiled {
+	static String[][] field = new String[4][10];
 
 	public static void main(String[] args) {
 
@@ -14,9 +15,8 @@ public class Battlefiled {
 
 		Warrior[][] warrior = new Warrior[2][10]; // 5개의 warrior 인스턴스 공간을 스택메모리에 만듬
 		Archor[][] archor = new Archor[2][10];
-		String[][] fild = new String[4][10];
-		
-		makeFild();
+
+		makeField();
 
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 2; j++) {
@@ -26,32 +26,42 @@ public class Battlefiled {
 				archor[j][i] = new Archor(100, 10);
 
 			}
-			
-//warrior[j][i]
+
 		}
 
 		boolean flag = true;
 		while (flag) {
 			posA = random.nextInt(2);
 			posB = random.nextInt(10);
-			flag = (warrior[posA][posB].getIsDie());// 살아있는 여부 가져와서 저장
+			flag = !(warrior[posA][posB].getIsDie());// 살아있는 여부 가져와서 저장
+			if (flag == true) {
+				warrior[posA][posB].warriorGA("아처", 10, posA, posB);
+				break;
+			}
 			// System.out.println(posA +"a"+ posB );
-			warrior[posA][posB].warriorGA("아처", 0);
 		}
 
 	}
 
-	static void makeFild() {
+	static void makeField() {
+
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 2; j++) {
 
-
-				System.out.print("[o]");
+				field[j][i] = new String("[o]");
+				System.out.print(field[j][i]);
 
 			}
+			System.out.print("\t\t");
+			for (int j = 0; j < 2; j++) {
+
+				field[j + 2][i] = new String("[*]");
+				System.out.print(field[j + 2][i]);
+
+			}
+
 			System.out.println();
-//warrior[j][i]
 		}
 	}
-	
+
 }
