@@ -28,7 +28,8 @@ public class Warrior {
 		if (health <= 0) {
 			this.isDie = true;// hp 0이하는 죽음으로 처리
 			count--;// 생존자 수 -1
-			// System.out.println(count);
+			Battlefiled.field[a][b] = "[x]";//죽은 객체 o->x로 표현 
+			// System.out.println(count);	//현재 살아 있는 객체수
 		}
 
 	}
@@ -42,7 +43,6 @@ public class Warrior {
 		return this.isDie;
 	}
 
-	public void warriorD() {
-	}
+
 
 }
