@@ -8,7 +8,11 @@ public class GoingToSchool {
 		//상호작용 하게 프로그래밍 하는것
 		
 		Bus bus1 = new Bus(100);
-		Bus bus2 = new Bus(200);
+		
+		int a = bus1.money;
+		System.out.println(a);
+		//int b = Bus.money;
+	
 		
 		Subway subway1 = new Subway(1);
 		Subway subway2 = new Subway(2);
@@ -20,11 +24,11 @@ public class GoingToSchool {
 		Student student1 = new Student("홍길동",10000);
 		student1.showInfo();
 		System.out.println("--------------------------------");
-		student1.takeBus(bus2);
+		//student1.takeBus(bus2);
 		student1.showInfo();
 		//버스의 상태값 확인
 		System.out.println("--------------------------------");
-		bus2.showInfo();
+		//bus2.showInfo();
 		System.out.println("--------------------------------");
 		student1.takeSubway(subway1);
 		student1.showInfo();
