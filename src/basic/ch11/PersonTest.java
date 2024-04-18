@@ -12,6 +12,7 @@ public class PersonTest {
 		person1.setName("지니");
 		Person personBox2 = person1.getPerson();
 		System.out.println(personBox2.getName());
+		System.out.println(personBox.getName());
 		
 		Person persoLee = new Person("이순신", 101);
 		//위 코드 까지는 heap 메모리 영역에 객체가 2개 생성된 상태이다.
