@@ -12,6 +12,7 @@ public class NumberPrinterTest {
 		n1.printWaitNumber();//고객3 
 		n1.printWaitNumber();//고객4
 	
+		
 		n2.printWaitNumber();//고객5
 		n2.printWaitNumber();//고객6
 		n2.printWaitNumber();//고객7
