@@ -3,7 +3,7 @@ package basic.ch12;
 public class NumberPrinter {
 
 	private int id;
-	private static int waitNumber;
+	public static int waitNumber;
 	
 	public NumberPrinter(int id ) {
 		this.id = id;
