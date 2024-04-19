@@ -1,5 +1,6 @@
 package basic.ex13;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class LottoGame {
@@ -9,15 +10,15 @@ public class LottoGame {
 
 	public static void main(String[] args) {
 
-		int[] numArray = new int[100000];
-		int[] biggerArray = new int[100000];
+		int[] numArray = new int[100];
+		int[] biggerArray = new int[100];
 
 		// staic 변수 --> 클래스 변수라고도 불린다.
 
 		for (int i = 0; i < numArray.length; i++) {
 			numArray[i] = LottoNumberMaker.makeNumber();
 		}
-
+		
 		for (int i = 0; i < numArray.length; i++) {
 			System.out.print(numArray[i] + "\t");
 		}
@@ -46,6 +47,7 @@ public class LottoGame {
 
 		for (int i = 1; i < biggerArray.length; i++) {
 			flag = true;
+			
 			while (flag) {
 				if (biggerArray[i] == biggerArray[i - 1]) {
 					flag = false;
@@ -56,7 +58,12 @@ public class LottoGame {
 			}
 
 		}
-
+		for (int i = 0; i < numArray.length; i++) {
+			Arrays.sort(numArray);
+			System.out.println(numArray[i]);
+		}
+		
+	
 	}// end of main
 
 }
