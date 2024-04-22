@@ -6,7 +6,7 @@ public class ArrayTest3 {
 		
 		char[] alpahbets = new char[26];
 		char ch1 ='A';
-		alpahbets[0] =ch1;
+//		alpahbets[0] =ch1;
 		
 		char ch2 ='B';
 		alpahbets[1] =ch2;

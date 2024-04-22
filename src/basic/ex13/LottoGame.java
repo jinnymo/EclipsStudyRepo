@@ -10,8 +10,8 @@ public class LottoGame {
 
 	public static void main(String[] args) {
 
-		int[] numArray = new int[100];
-		int[] biggerArray = new int[100];
+		int[] numArray = new int[6];
+		int[] biggerArray = new int[6];
 
 		// staic 변수 --> 클래스 변수라고도 불린다.
 
@@ -43,6 +43,7 @@ public class LottoGame {
 		}
 		boolean flag;
 		System.out.println();
+		System.out.println();
 		System.out.println(biggerArray[0] + " | ");
 
 		for (int i = 1; i < biggerArray.length; i++) {
@@ -58,10 +59,10 @@ public class LottoGame {
 			}
 
 		}
-		for (int i = 0; i < numArray.length; i++) {
-			Arrays.sort(numArray);
-			System.out.println(numArray[i]);
-		}
+//		for (int i = 0; i < numArray.length; i++) {
+//			Arrays.sort(numArray);
+//			System.out.println(numArray[i]);
+//		}
 		
 	
 	}// end of main
