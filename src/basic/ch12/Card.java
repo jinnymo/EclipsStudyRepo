@@ -25,4 +25,3 @@ public class Card {
 
 	}
 }
-w
