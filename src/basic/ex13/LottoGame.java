@@ -12,7 +12,7 @@ public class LottoGame {
 
 		int[] numArray = new int[6];
 		int[] biggerArray = new int[6];
-
+		
 		// staic 변수 --> 클래스 변수라고도 불린다.
 
 		for (int i = 0; i < numArray.length; i++) {

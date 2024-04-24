@@ -4,7 +4,7 @@ public class B {
 	C c;
 	
 public B(A a) {
-	A a;
+	//A a;
 }
 
 B sendName() {
