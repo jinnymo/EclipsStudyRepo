@@ -17,7 +17,7 @@ public class StrarCraftTest1 {
 		Zergling zergling2 = new Zergling("저글링2");
 		
 		for (int i = 0; i < 15; i++) {
-			zealot1.attackMarine(marine2);
+			//zealot1.attackMarine(marine2);
 		}
 		marine2.showInfo();
 	}
