@@ -13,8 +13,8 @@ public class StringTest2 {
 		str3 = str3+" : def ";
 		System.out.println(System.identityHashCode(str3));
 		
+		//리터럴 타입으로 생성한 String 은 한번 생성하면 불변이다.
 		
-
 		
 	}// end of main
 }
