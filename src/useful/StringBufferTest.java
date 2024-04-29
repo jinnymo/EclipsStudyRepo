@@ -25,6 +25,12 @@ public class StringBufferTest {
 		
 		String newStr = bufferStr.toString(); //toString 호출시 타입 ->String
 		System.out.println(newStr);
+		
+		String str3 = "AAA";
+		for (int i = 0; i < 10; i++) {
+			//str3 = str3 + i;
+			System.out.println(str3+i);
+		}
 	}//end of main
 	
 }
