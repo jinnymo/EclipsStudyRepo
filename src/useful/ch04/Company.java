@@ -25,7 +25,7 @@ public class Company {
 	public static Company getInstance() {
 
 		if (company == null) {
-			return new Company();
+			company = new Company();
 		}
 		return company;
 	}
